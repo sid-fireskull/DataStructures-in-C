@@ -1,4 +1,5 @@
 // Inserting data at the beginning of the LinkedList
+// Author: Sid
 
 #include<stdio.h>
 #include<stdlib.h>
