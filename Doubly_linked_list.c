@@ -1,5 +1,6 @@
 
 // Doubly Linked List
+// Author: Sid
 
 #include<stdio.h>
 #include<stdlib.h>
