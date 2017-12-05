@@ -1,5 +1,5 @@
 // Linkedlist using charecter
-// Author: Sid
+// Author: Siddhartha Sadhukhan
 
 
 #include<stdio.h>
