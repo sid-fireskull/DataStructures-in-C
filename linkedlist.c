@@ -1,5 +1,5 @@
 // Inserting data at the beginning of the LinkedList
-// Author: Sid
+// Author: Siddhartha Sadhukhan
 
 #include<stdio.h>
 #include<stdlib.h>
