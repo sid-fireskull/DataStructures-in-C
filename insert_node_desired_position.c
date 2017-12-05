@@ -1,5 +1,5 @@
 // Inserting data in the linkedlist in the desired position
-// Author: Sid
+// Author: Siddhartha Sadhukhan
 
 #include<stdio.h>
 #include<stdlib.h>
