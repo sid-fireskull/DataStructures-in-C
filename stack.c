@@ -1,4 +1,4 @@
-// Stack Datastructures
+// Stack Datastructure
 // Author: Siddhartha Sadhukhan
 
 #include<stdio.h>
