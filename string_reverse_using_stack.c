@@ -1,4 +1,4 @@
-// Reverse a string using stack datastructure
+// Reversing a string using stack datastructure
 // Author: Siddhartha Sadhukhan
 
 #include<stdio.h>
