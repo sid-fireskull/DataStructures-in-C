@@ -10,15 +10,12 @@ struct node{
 	int data;
 	struct node* next;
 };
-
 struct node* top=NULL;
-
 
 // push data to the stack
 push(int x)
 {
 	struct node* temp = (struct node*)malloc(sizeof(struct node));
-	
 	if(top==NULL)
 	{
 		(*temp).data=x;
@@ -63,42 +60,38 @@ int isOperator(char x)
 	}
 }
 
-
-
 //  current stack status
 stackstatus(void)
 {
 	struct node* temp;
 	temp=top;
-	while(temp!=NULL){
+	while(temp!=NULL)
+	{
 		printf("%d  ",(*temp).data);
 		temp=(*temp).next;
 	}
 }
 
-
 //  main function
 int main()
 {
-	
    char buffer[80];
    const char delimiter[2] = " ";
    char *token;
    int result, operand1, operand2, temp;
    printf("Enter the Expression (Use space as delimiter): ");
    fgets(buffer, 80, stdin);
-   /* get the first token */
    token = strtok(buffer, delimiter);
    
-   /* walk through other tokens */
+  // spliting string using defined delimiter
    while( token != NULL ) {
       if(isOperator(*token)==1)
       {
       	operand1= pop();
       	operand2= pop();
       	if(*token == '+')
-		{
-			result = operand2+operand1;
+	{
+		result = operand2+operand1;
       	}
       	else if(*token == '-')
       	{
@@ -121,9 +114,7 @@ int main()
 	  }
     
       token = strtok(NULL, delimiter);
-   }
-   
+   }  
    printf("\nResult: %d",(*top).data);
-   return(0);
-	
+   return(0);	
 }
